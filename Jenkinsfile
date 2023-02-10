@@ -14,7 +14,7 @@ spec:
     }
   }
  
-    stages {
+
         stage('测试'){
             steps {
                 sh """
@@ -22,5 +22,5 @@ spec:
                    """
             }
         }
-　　}
+
 }
